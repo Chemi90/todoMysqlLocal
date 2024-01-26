@@ -10,9 +10,9 @@ $respuesta = [
 ];
 
 // nos conectamos a la base de datos con PDO
-$dsn = 'servidorxemi.mysql.database.azure.com';
-$user = 'xemita';
-$pass = 'Posnose90';
+$dsn = 'mysql:host=localhost;dbname=todo';
+$user = 'root';
+$pass = 'posnose90';
 
 try {
     $conexionBBDD = new PDO($dsn, $user, $pass);
